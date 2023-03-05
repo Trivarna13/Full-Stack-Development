@@ -1,3 +1,3 @@
 # Full-Stack-Development
-I&amp;T Labs | fsdb
-Tasks done by Trivarna Sri Koduru, ITHUB0950
+I&amp;T Labs | fsdb <br>
+Task done by <br>Trivarna Sri Koduru<br>ITHUB0950
