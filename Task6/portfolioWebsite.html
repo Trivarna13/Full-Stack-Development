@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Trivarna</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b1d9ce28c1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+			<img src="images/Trivarna.gif" type="video/mp4" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <h1>Hi,</h1><h1>I'm <span>Trivarna</span>,</h1>
+            <p>Web developer</p>
+        </div>
+    </div>
+</div>
+<!---------------about----------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+					Hello there, I'm Trivarna, a driven computer science and engineering sophomore at GITAM University who is passionate about software development. With a strong work ethic, technical expertise, and exceptional communication skills, I am committed to collaborating effectively with others. I am always on the lookout for the latest advancements in computer technology and am currently honing my skills in Full Stack Programming. As a proud GITAMITE, I believe in the importance of ongoing talent development and community growth. I'm excited to take my skill set to the next level in a unique way while supporting others in their journey towards success. Let's work together to create innovative solutions that make a difference in the world!</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Website Development</li>
+                        <li><span>Content Writing</span><br>Free Content Provider</li>
+                        <li><span>Team Buliding</span><br>Team Building & Management</li>
+                    </ul>
+                </div>  
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023 - current</span><br>Working on FSDB Internship</li>
+                        <li><span>2022 - current</span><br>ACM Content Writing Core Team Member</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021</span><br>B.Tech at GITAM Demmed to be University</li>
+                        <li><span>2019</span><br>Intermediate School of Education at Sri Venkateswara Junior College</li>
+                        <li><span>2010</span><br>Schooling at Delhi Public School</li>
+                    </ul>
+                </div>     
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------------------services------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Hi there; thank you for your interest in web design! I am experienced in web design and would be happy to help. I have a creative eye and the technical skills to create an effective website. I can help you with everything from creating a domain and hosting the website to designing the layout, graphics, and content. Please let me know if you have any questions or want to discuss this further. I look forward to working with you!</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Content Writing</h2>
+                <p>Hi there, I am an experienced content writer and would love to help you with your content writing needs. I specialize in creating engaging and informative content and am confident I can provide what you need. My experience includes writing for websites, blogs, and other digital media, so I am sure I can help you create the content you need. Please let me know if you have any questions or want to discuss your project further. Thank you!</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------------------portfolio--------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Interested Works</h1>
+        <div class="work-list">
+			<div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Education App</h3>
+                    <p>The app connects the people who wants to build their career for free.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                    <img src="images/work-2.png" height="255">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects the people who are missing the home food to the Ammogham</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" height="255">
+                <div class="layer">
+                    <h3>Comics App</h3>
+                    <p>The app connects the people who love to read comics, manga, and short stories.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+        </div>
+       
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!---------------------Contact---------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i>trivarnasri.koduru@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>9110793263</p>
+            <div class="social-icons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/trivarna-sri-koduru-567800254/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+            <a href="images/Resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright"><p>copyright <i class="fa-solid fa-copyright"></i> Trivarna Sri Koduru</p></div>
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwJSQDr_dOf3yLaXUdpkLS4ToJSvJYgsLEaTzm03OUAuG8_10JBGUTRHl9k_ha3fjGDDg/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
